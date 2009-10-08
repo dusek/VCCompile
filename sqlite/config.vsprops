@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="config"
+	InheritedPropertySheets="$(VCConf)naming\basename\format\project.vsprops;$(VCConf)naming\builddirs\safe.vsprops;$(VCConf)naming\tbb.vsprops;$(VCConf)install.vsprops;$(VCConf)DLL.vsprops"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		PreprocessorDefinitions="SQLITE_API=__declspec(dllexport);_CRT_SECURE_NO_WARNINGS"
+		DisableSpecificWarnings="4127;4244"
+	/>
+	<UserMacro
+		Name="LibraryName"
+		Value="sqlite"
+	/>
+	<UserMacro
+		Name="LibraryVersion"
+		Value="3.6.18"
+	/>
+	<UserMacro
+		Name="VCCToolsetVersion"
+		Value="$(VCCToolsetVersion90)"
+	/>
+	<UserMacro
+		Name="SrcDir"
+		Value="Z:\Downloads\sqlite-amalgamation-3_6_18\"
+	/>
+	<UserMacro
+		Name="InstallHeadersCmd"
+		Value="dir &quot;$(SrcDir)&quot; &amp; xcopy /Y &quot;$(SrcDir)sqlite3.h&quot; &quot;$(InstallDirHeaders)&quot; &amp; xcopy /Y &quot;$(SrcDir)sqlite3ext.h&quot; &quot;$(InstallDirHeaders)&quot;"
+	/>
+	<UserMacro
+		Name="SDK"
+		Value="Z:\Downloads\testsdks\"
+	/>
+</VisualStudioPropertySheet>
