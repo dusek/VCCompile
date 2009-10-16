@@ -18,7 +18,6 @@
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
-			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="2"
 			InheritedPropertySheets="$(VCConf)$(ConfigurationName).vsprops;$(VCConf)$(PlatformName).vsprops;.\config.vsprops"
 			CharacterSet="1"
@@ -90,7 +89,6 @@
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
-			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="2"
 			InheritedPropertySheets="$(VCConf)$(ConfigurationName).vsprops;$(VCConf)$(PlatformName).vsprops;.\config.vsprops"
 			CharacterSet="1"
