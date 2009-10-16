@@ -28,10 +28,10 @@
 	/>
 	<UserMacro
 		Name="InstallHeadersCmd"
-		Value="dir &quot;$(SrcDir)&quot; &amp; xcopy /Y &quot;$(SrcDir)sqlite3.h&quot; &quot;$(InstallDirHeaders)&quot; &amp; xcopy /Y &quot;$(SrcDir)sqlite3ext.h&quot; &quot;$(InstallDirHeaders)&quot;"
+		Value="xcopy /Y &quot;$(SrcDir)sqlite3.h&quot; &quot;$(InstallDirHeaders)&quot; &amp; xcopy /Y &quot;$(SrcDir)sqlite3ext.h&quot; &quot;$(InstallDirHeaders)&quot;"
 	/>
 	<UserMacro
 		Name="SDK"
-		Value="Z:\Downloads\testsdks\"
+		Value="$(SDKsRoot)"
 	/>
 </VisualStudioPropertySheet>
