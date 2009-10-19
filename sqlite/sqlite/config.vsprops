@@ -8,7 +8,7 @@
 	<Tool
 		Name="VCCLCompilerTool"
 		PreprocessorDefinitions="SQLITE_API=__declspec(dllexport);_CRT_SECURE_NO_WARNINGS"
-		DisableSpecificWarnings="4127;4244"
+		DisableSpecificWarnings="4127;4244;4306"
 	/>
 	<UserMacro
 		Name="LibraryName"
@@ -16,7 +16,7 @@
 	/>
 	<UserMacro
 		Name="LibraryVersion"
-		Value="3.6.18"
+		Value="3.6.19"
 	/>
 	<UserMacro
 		Name="VCCToolsetVersion"
@@ -24,7 +24,7 @@
 	/>
 	<UserMacro
 		Name="SrcDir"
-		Value="Z:\Downloads\sqlite-amalgamation-3_6_18\"
+		Value="Z:\Downloads\sqlite-amalgamation-3_6_19\"
 	/>
 	<UserMacro
 		Name="InstallHeadersCmd"
