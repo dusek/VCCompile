@@ -7,18 +7,24 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
+		Debug|Itanium = Debug|Itanium
 		Release|Win32 = Release|Win32
 		Release|x64 = Release|x64
+		Release|Itanium = Release|Itanium
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7B8582DF-A24B-4593-942E-C198D7DD92FB}.Debug|Win32.ActiveCfg = Debug|Win32
 		{7B8582DF-A24B-4593-942E-C198D7DD92FB}.Debug|Win32.Build.0 = Debug|Win32
 		{7B8582DF-A24B-4593-942E-C198D7DD92FB}.Debug|x64.ActiveCfg = Debug|x64
 		{7B8582DF-A24B-4593-942E-C198D7DD92FB}.Debug|x64.Build.0 = Debug|x64
+		{7B8582DF-A24B-4593-942E-C198D7DD92FB}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{7B8582DF-A24B-4593-942E-C198D7DD92FB}.Debug|Itanium.Build.0 = Debug|Itanium
 		{7B8582DF-A24B-4593-942E-C198D7DD92FB}.Release|Win32.ActiveCfg = Release|Win32
 		{7B8582DF-A24B-4593-942E-C198D7DD92FB}.Release|Win32.Build.0 = Release|Win32
 		{7B8582DF-A24B-4593-942E-C198D7DD92FB}.Release|x64.ActiveCfg = Release|x64
 		{7B8582DF-A24B-4593-942E-C198D7DD92FB}.Release|x64.Build.0 = Release|x64
+		{7B8582DF-A24B-4593-942E-C198D7DD92FB}.Release|Itanium.ActiveCfg = Release|Itanium
+		{7B8582DF-A24B-4593-942E-C198D7DD92FB}.Release|Itanium.Build.0 = Release|Itanium
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
