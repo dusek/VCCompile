@@ -20,7 +20,7 @@
 	/>
 	<UserMacro
 		Name="VCCToolsetVersion"
-		Value="$(VCCToolsetVersion90)"
+		Value="$(VCCToolsetVersion80)"
 	/>
 	<UserMacro
 		Name="SrcDir"
